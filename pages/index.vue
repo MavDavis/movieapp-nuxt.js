@@ -242,8 +242,9 @@ export default {
 
 .hero {
   background: url(../assets/hero.jpg) no-repeat center center;
-  max-height: fit-content;
+  background-size: cover;
   perspective: 1000px;
+  width:100%;
   height: 100vh;
 }
 .absolute-1 {
